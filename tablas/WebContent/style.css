@@ -1,0 +1,87 @@
+@charset "UTF-8";
+table.uno {
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+caption {
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+
+caption.abajo {
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    caption-side: bottom;
+}
+
+td {
+    text-align: center;
+}
+
+hr.uno {
+    height: 30px;
+    border: 2px solid black;
+}
+
+table.dos {
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border-collapse: collapse;
+    margin-bottom: 45px;
+}
+
+th.rojo {
+    border-bottom: 5px red dotted;
+}
+
+td.rojo2 {
+    text-align: center;
+    border-left: 5px red dotted;
+}
+
+td.rojo3 {
+    text-align: center;
+    border-right: 5px red dotted;
+}
+
+td.rojo4 {
+    text-align: center;
+    border-left: 5px red dotted;
+    border-bottom: 5px red dotted;
+}
+
+td.rojo5 {
+    text-align: center;
+    border-right: 5px red dotted;
+    border-bottom: 5px red dotted;
+}
+
+hr.espacio {
+    width: 50%;
+    text-align: center;
+}
+
+p.amarillo {
+	background-color: yellow;
+    margin-top: 0px;
+    height: 25px;
+    border: 5px solid red;
+    text-align: center;
+    color: blue;
+     padding: 20px;
+    font-weight: bold;
+}
+.letra {
+	text-align: center;
+    font-family: 'Hanalei', cursive;
+    
+}
